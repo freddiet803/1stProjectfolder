@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+
+.searchHeader {
+   width: 100%;
+   height: 15%;
+   display: flex;
+   flex-flow: column;
+   margin-bottom: 15px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+    
+}
+.navHeader{
+    background-color: rgb(245, 243, 237);
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+
+    
+}
+.ourButtons{
+    color:rgb(15, 24, 145);
+    border-radius: 35px;
+    background-color: white;
+    border: white;
+    
+}
+.ourButtons:hover {
+    border: solid 1px rgb(15, 24, 145);
+    cursor: pointer;
+}
+.navButtons{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    height: 40px;
+
+}
+.moreButton{
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    height: 30px;
+}
+.searchBar {
+    
+    height: 70%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.searchBar img {
+    height: 50px;
+}
+.reOrder, .signIn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pickupdel {
+    background-color: rgb(15, 24, 145);
+    border-radius: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pickupdel:hover {
+    background-color: black;
+    border-radius: 35px;
+}
+.searchBar #pickup {
+    width: 20%
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cart i {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.searchBar a {
+    text-decoration: none;
+    color: white;
+}
+.searchBar a:hover {
+    background-color: black;
+    border-radius: 35px;
+    
+}
+.search-form {
+    width: 50%;
+    height: 70%;
+    margin: none;
+    padding-right: none;
+    display: flex;
+    align-items: center;
+}
+.search-form button{
+    color: white;
+    background-color: rgb(15, 24, 145);
+    border-radius: 25px;
+    height: 25px;
+    transform: translateX(-45px);
+}
+.search-form button:hover {
+    cursor: pointer;
+}
+.actualSearch {
+    width: 90%;
+    height: 90%;
+    border-radius: 35px;
+    padding-left: 20px;
+}
+
+.yellowBanner {
+    background-color: rgb(245, 198, 24);
+    margin: 190px 100px 40px 100px;
+    border-radius: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    
+}
+.yellowBanner p {
+    font-size: 25px;
+    color: rgb(15, 24, 145);
+}
+.wallyLogo {
+    width: 15%;
+    height: 95%;
+}
+
+.yellowBanner .ourButtons {
+    height: 35%;
+    width: 10%;
+}
+
+.yellowBanner div p {
+    font-size: 13px;
+}
+.yellowBanner div {
+    text-align: center;
+    
+}
+
+.blueBanner{
+    /*background-color: hsl(215, 100%, 66%);*/
+    height: 30%;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(102, 199, 237, 1) 0%, rgba(54, 206, 247, 1) 50%, rgba(88, 180, 237, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    
+}
+.blueBanner1{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.blueBanner1 button{
+    height: 30px;
+    width: 20%;
+    color: black;
+    border: solid black 1px;
+    font-weight: bold;
+
+}
+
+.blueBannerPic img {
+    height: 100%;
+    width: 100%;
+}
+
+.blueBanner1 p:nth-child(1) {
+    font-size: 25px;
+    font-weight: bold;
+}
+.blueBanner1 p:nth-child(2){
+    font-size: 55px;
+    font-weight: bold;
+    width: 150%;
+}
+.blueBanner .ourButtons {
+    margin-top: 20px;
+}
+.skipButtons{
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.skipButtons .ourButtons {
+    height: 20px;
+    width: 20px;
+}
+
+.sponsored{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.discoverLabel {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.discoverLabel a {
+    color: black;
+}
+
+.shoppingBoxes {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 35%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoppingBoxes a{
+    width: 15%;
+}
+
+.aShopBox{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.aShopBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    display: block;
+}
+
+.cornerIcon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+}
+.shoppingBoxes button {
+    border: solid 1px black;
+    color: black;
+    height: 10%;
+    width: 30%;
+    margin-bottom: 10px;
+}
+.shoppingBoxes button:hover{
+    border: solid 2px black;
+    font-weight: bold;
+}
+.shoppingBoxes a{
+    text-decoration: none;
+}
+.shoppingBoxes a p{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.onSale{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+.onSale h2{
+    text-decoration: none;
+    color: green;
+}
+.onSale span {
+    color: grey;
+    text-decoration: line-through;
+}
